@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+</head>
+<body>
+    
+    <header>
+        <h1>Contactos</h1>
+    </header>
+
+    <main class="ordernar">
+        <section class="container usuario">
+
+            <h3>Agregar</h3>    
+
+            <form id="crear">
+
+        
+
+                <div>
+                    <label for="id">Id</label>
+                    <input type="text" id="id" required>
+                </div>
+                <div>
+                    <label for="nombre">Nombres</label>
+                    <input type="text" id="nombre">
+                </div>
+                <div>
+                    <label for="apellidos">Apellidos</label>
+                    <input type="text" id="apellidos" required>
+                </div>
+                <div>
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad">
+                </div>
+                <div>
+                    <label for="telefono">Teléfono</label>
+                    <input type="text" id="telefono" required>
+                </div>
+                <div>
+                    <label for="ciudad">Ciudad</label>
+                    <input type="text" id="ciudad" required>
+                </div>
+                <div>
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion" required>
+                </div>
+    
+                <div>
+                    <input type="submit" value="Guardar" id="boton">
+                </div>
+            </form>
+        </section>
+
+
+        <section>
+            <div class="container datos">
+            
+                <table>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombres</th>
+                        <th>Apellidos</th>
+                        <th>Edad</th>
+                        <th>Teléfono</th>
+                        <th>Ciudad</th>
+                        <th>Dirección</th>
+                        <th>Acciónes</th>
+                    </tr>
+                    <!-- <tr>
+                        <td>12345</td>
+                        <td>Ferney</td>
+                        <td>Rodriguez Aya</td>
+                        <td>30</td>
+                        <td>320-555-54-55</td>
+                        <td>Villavicencio</td>
+                        <td>Calle 37 # 54 -85</td>
+                        <td>
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-arrow-up-circle" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="12" cy="12" r="9" />
+                                    <line x1="12" y1="8" x2="8" y2="12" />
+                                    <line x1="12" y1="8" x2="12" y2="16" />
+                                    <line x1="16" y1="12" x2="12" y2="8" />
+                                  </svg>
+                            </a>
+                            <a href="">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-circle-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ff2825" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                    <circle cx="12" cy="12" r="9" />
+                                    <path d="M10 10l4 4m0 -4l-4 4" />
+                                  </svg>
+                            </a>
+                        </td>
+                    </tr> -->
+                    <tbody id="cuerpo-tabla" class="subir">
+                        
+                    </tbody>
+
+                </table>
+            </div>
+        </section>
+
+
+
+        <section class="container usuario">
+
+            <h3>Eliminar</h3>    
+
+            <form id="eliminar">
+
+                <div>
+                    <label for="id">Id</label>
+                    <input type="text" id="id-eliminar" >
+                </div>
+               
+                <div>
+                    <input type="submit" value="Eliminar" id="boton">
+                </div>
+            </form>
+        </section>
+
+        <section class="container usuario">
+
+            <h3>Top</h3>    
+
+            <form id="top">
+
+                <div>
+                    <label for="id">Id</label>
+                    <input type="text" id="id-top" >
+                </div>
+               
+                <div>
+                    <input type="submit" value="top" id="boton">
+                </div>
+            </form>
+        </section>
+
+
+
+        
+    </main>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

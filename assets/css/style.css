@@ -1,0 +1,149 @@
+
+
+
+html {
+    font-size: 63.5%;
+    box-sizing: border-box;
+    background: no-repeat;
+    background-image: linear-gradient(to right top, #e7abb2, #eba6a6, #eda399, #eda08b, #ea9e7c, #eb966d, #ea8f5d, #e9884c, #ee763a, #f2612a, #f7461d, #fb1414);
+    /* height: 100%; */
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-size: 16px; /*hack para que 1rem = 10px */
+    font-family: 'Krub', sans-serif;
+   
+
+}
+
+
+h1 {
+    font-size: 3.8rem;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: .5rem 1px 3px rgb(239, 60, 60);
+}
+
+
+h2 {
+    font-size: 2.8rem;
+}
+
+
+h3 {
+    font-size: 2.4rem;
+    text-align: center;
+    /* color: white; */
+    margin: 1rem;
+    padding: .5rem;
+}
+
+.ordenar {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container {
+    width: 120rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.container.usuario {
+    /* width: 100%; */
+    /* border: 2px solid green; */
+    /* border-radius: 2rem; */
+    margin-bottom: 10rem;
+    background-color: #f0e3ca4f;
+    padding: 5rem;
+    text-align: justify;
+    box-shadow: .5rem 1.8rem 8rem 1rem rgba(20, 20, 20, 0.489);
+    border-radius: 1rem;
+    width: 100rem;
+}
+
+.usuario div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 1rem;
+}
+
+.usuario div label {
+    font-size: 2rem;
+    padding-right: 2rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.usuario div input[type=text], input[type=number] {
+    height: 4rem;
+    /* width: 100%; */
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.352);
+    border: .2rem solid rgba(0, 0, 0, 0.4);
+}
+
+.usuario div input[type=submit] {
+    padding: 1rem 8rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+
+.container.datos {
+    display: flex;
+    justify-content: center;
+    /* border: .2rem solid lightslategray; */
+    background-color: rgba(0, 0, 0, 0.208);
+    margin-bottom: 5rem;
+}
+
+
+.container.datos table
+{
+    /* border: 0 rem solid rgba(0, 0, 0, 0.461); */
+    /* width: 90%; */
+    padding: 2rem;
+    font-size: 1.8rem;
+    border-spacing: 0;
+}
+
+.datos table th {
+    background-color: gray;
+    margin: 10rem;
+    /* border: .2rem solid black; */
+    font-weight: bolder;
+    
+    padding: 1rem 3rem;
+    
+}
+
+/* .datos  tr {
+    margin: 10rem;
+    border: 0px;
+    border: .2rem solid black;
+}  */
+
+.datos td {
+    /* border: 10px solid green; */
+    border-color: green;
+    background-color: rgba(248, 245, 245, 0.585);
+    text-align: center;
+    /* border-right: .5rem solid red; */
+    padding: 2rem;
+    /* border: 5rem solid black; */
+
+    
+}
+
+.datos a {
+    text-decoration: none;
+}
