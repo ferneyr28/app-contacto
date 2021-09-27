@@ -5,7 +5,8 @@ html {
     font-size: 63.5%;
     box-sizing: border-box;
     background: no-repeat;
-    background-image: linear-gradient(to right top, #e7abb2, #eba6a6, #eda399, #eda08b, #ea9e7c, #eb966d, #ea8f5d, #e9884c, #ee763a, #f2612a, #f7461d, #fb1414);
+    background-color: lightblue;
+    /* background-image: linear-gradient(to right top, #e7abb2, #eba6a6, #eda399, #eda08b, #ea9e7c, #eb966d, #ea8f5d, #e9884c, #ee763a, #f2612a, #f7461d, #fb1414); */
     /* height: 100%; */
 }
 
@@ -26,7 +27,8 @@ h1 {
     text-align: center;
     color: white;
     text-transform: uppercase;
-    text-shadow: .5rem 1px 3px rgb(239, 60, 60);
+    font-weight: bolder;
+    text-shadow: .5rem .5rem 1rem rgba(22, 12, 204, 0.344);
 }
 
 
